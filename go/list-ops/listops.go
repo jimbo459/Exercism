@@ -9,7 +9,7 @@ type IntList struct {
 	list *[]int
 }
 
-func (l *IntList) foldl(list *[]int, f binFunc) []int {
+func (il *IntList) foldl(list *[]int, f binFunc) []int {
 	tmpList := *list
 	return tmpList
 }
